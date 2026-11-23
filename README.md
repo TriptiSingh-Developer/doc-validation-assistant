@@ -1,6 +1,6 @@
 # AI Document Verification Assistant
 
-[![tests](../../actions/workflows/tests.yml/badge.svg)](../../actions/workflows/tests.yml)
+[![Tests](https://github.com/TriptiSingh-Developer/doc-validation-assistant/actions/workflows/tests.yml/badge.svg)](https://github.com/TriptiSingh-Developer/doc-validation-assistant/actions/workflows/tests.yml)
 
 A workflow that checks an AI-generated summary against its source document and flags every error with a page reference. It combines a **Claude Project** (extraction with citations) and an independent **Python validator** (no AI) so that one check can catch the mistakes of the other.
 
